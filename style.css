@@ -123,7 +123,7 @@ input.description {
 }
 
 main {
-  padding-top: 20px;
+  padding: 20px 0;
   min-height: 70vh;
   width: 100%;
   background-color: #e7ecef;
