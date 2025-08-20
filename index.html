@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frijole&family=Galindo&family=Gantari:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>To Do List</h1>
+      <p>Write your tasks down and... actually do them</p>
+      <form id="complete-checkbox">
+        <input type="checkbox" id="show-complete" />
+        <label for="show-complete">Show completed tasks</label>
+      </form>
+      <form id="task-form">
+        <input type="text" name="task-input" id="task-input" />
+        <input type="submit" />
+      </form>
+    </header>
+    <main id="list-container"></main>
+  </body>
+</html>
